@@ -1,0 +1,19 @@
+.customer-header h1{
+    font-size: 50px;
+    text-align: center;
+}
+.customer-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5em;
+   
+}
+.customer-logo{
+    background-color: bisque;
+    padding: 5em;
+    margin: 2em;
+}
+.customer-main{
+    padding-bottom: 4em;
+}

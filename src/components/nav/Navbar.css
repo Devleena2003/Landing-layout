@@ -1,0 +1,82 @@
+.navbar {
+    background-color: rgba(105, 105, 105, 0.5);
+   
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    border-radius: 10px;
+    position: fixed ;
+    top: 0;
+    width: 95vw;
+    z-index: 1000;
+  }
+  
+  .nav-item::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease;
+  }
+  
+  .nav-item:hover::after {
+    width: 90%;
+  }
+  .nav-links {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-item {
+    position: relative;
+  }
+  
+  .dropdown {
+    display: none;
+    position: absolute;
+    top: 130%;
+    left: 0;
+    background-color: rgba(105, 105, 105, 0.5);
+    padding: 5em;
+  }
+  
+  .nav-item:hover .dropdown {
+    display: block;
+  }
+  
+  .nav-item a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+
+  .btn-1,.btn-2{
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s ease-in;
+  }
+  .btn-1:hover,.btn-2:hover{
+    background-color:  rgb(61, 61, 255);
+    color: white;
+    
+  }
+  .btn-1{
+    background-color: black;
+    color: white;
+   
+  }
+  .btn-2{
+   margin-left: 5px;
+  }
+  

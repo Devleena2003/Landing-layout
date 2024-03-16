@@ -1,0 +1,32 @@
+.line{
+    margin-top: 40px;
+width: '40%';
+height: 1.5px;
+background-color: black;
+}
+.line-1, .line-2 :hover{
+    background-color: rgb(61, 61, 255);
+    transition: 0.3s ease-in;
+}
+.card-text:hover{
+    cursor: pointer;
+color:  rgb(61, 61, 255);
+}
+.line-2{
+    width: '40%';
+height: 1.5px;
+background-color: black;
+}
+.img-2-con{
+    margin-top: 40px;
+}
+
+.spotlight-main{
+    padding: 4em;
+}
+.second{
+    padding: 5em 0;
+}
+.spotlight-header{
+    padding: 2em 0;
+}

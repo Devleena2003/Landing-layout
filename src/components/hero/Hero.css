@@ -1,0 +1,82 @@
+.hero-header {
+    width: 1200px;
+    font-size: 80px;
+  padding-top: 100px ;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+    line-height: 1.06;
+    letter-spacing: -0.02em;
+    color: #1d1d1f;
+ 
+  }
+  .hero-container{
+   height: 90vh;
+  }
+  .mask {
+    height: 106px;
+    position: relative;
+    overflow: hidden;
+    margin-top: var(--offset);
+  }
+  
+  .mask span {
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    top: 100px;
+    padding-bottom: var(--offset);
+    
+    background-size: 100% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+  }
+  
+  .mask span[data-show] {
+    transform: translateY(-100%);
+    transition: .5s transform ease-in-out;
+  }
+  
+  .mask span[data-up] {
+    transform: translateY(-250%);
+    transition: .5s transform ease-in-out;
+  }
+  
+  .mask span:nth-child(1) {
+    background-image: linear-gradient(45deg, #0ecffe 50%, #07a6f1);
+  }
+  
+  .mask span:nth-child(2) {
+    background-image: linear-gradient(45deg, #18e198 50%, #0ec15d);
+  }
+  
+  .mask span:nth-child(3) {
+    background-image: linear-gradient(45deg, #8a7cfb 50%, #633e9c);
+  }
+  
+  .mask span:nth-child(4) {
+    background-image: linear-gradient(45deg, #fa7671 50%, #f45f7f);
+  }
+  .hero-buttons{
+    margin: 20px;
+  }
+  .hero-btn-1{
+    background-color: white;
+  }
+  .hero-btn-2{
+    background-color: transparent;
+  }
+  .hero-btn-1:hover,.hero-btn-2:hover{
+    background-color: rgb(61, 61, 255);
+    transition: 0.3s ease-in;
+    color: #fff;
+    border: 1px solid rgb(61, 61, 255);
+  }
+  .hero-btn-1 , .hero-btn-2{
+    padding: 20px 40px;
+    cursor: pointer;
+    margin-left: 20px;
+    border-radius: 8px;
+  }

@@ -1,0 +1,57 @@
+.dock-video{
+    width: '100%';
+    height: 800px;
+    background-color: bisque;
+}
+.dock-main{
+    padding: 4em;
+}
+
+.dock-btn button{
+    padding: 20px 40px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    border: none;
+    margin-top: 20px;
+}
+.dock-btn button:hover{
+    background-color: rgb(61, 61, 255);
+    transition: 0.3s ease-in;
+}
+.second-container{
+    padding: 4em 0;
+}
+.product-card-container{
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+}
+.card-line{
+    width: '100%';
+    height: 1.5px;
+    background-color: black;
+}
+.product-card{
+    padding: 20px;
+}
+.product-card:hover{
+    background-color: rgba(239, 239, 239, 0.822);
+    border-radius: 5px;
+}
+.product-btn{
+    margin-top: 40px;
+}
+.product-btn button{
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.product-btn button:hover{
+    background-color: rgb(61, 61, 255);
+    transition: 0.3s ease-in;
+    color: white;
+    border-color: rgb(61, 61, 255);
+}
